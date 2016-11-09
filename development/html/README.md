@@ -19,7 +19,7 @@ To seperate our concerns and give a clearer picture to other developers we would
 
 This gives us confidence that
 * `navbar` is a CSS class
-* `js-navbar` is a Javascript binding
+* `js-navbar` is a JavaScript binding
 * `data-automation-id` is an automation id
 
-Using this approach instead of an id attribute gives us a seperation of concerns which allows the CSS class, Javscript binding, and automation id to change independently of each other.
+Using this approach instead of an id attribute gives us a seperation of concerns which allows the CSS class, JavaScript binding, and automation id to change independently of each other.
