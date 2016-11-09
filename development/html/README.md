@@ -2,7 +2,7 @@
 
 ##Best practices
 
-###Use of id attributes
+###Avoid id attributes
 The use of id attributes is discouraged when writing HTML. We consider the id attribute to be too generic for any semantic meaning, and only when conforming to accessibility requirements should they be used. Targeting id attributes with CSS is forbidden as the specificity is too high to be overridden by CSS classes.
 
 As an example, given the following markup can you be assured that the navbar id is not being targeted by CSS, Javascript, or automation scripts? If you change the id, will anything break?
