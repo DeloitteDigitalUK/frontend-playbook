@@ -10,19 +10,6 @@ The use of id attributes is discouraged when writing HTML. We consider the id at
 * id attributes are overly specific when targeted by CSS
 * The same id attribute can only appear once on a page, which may be a challenge when working with components
 
-####Exceptions
-Accessibility spec implementation
-```html
-<label for="email">Email</label>
-<input id="email" name="email" type="email" />
-```
-
-Anchor link
-```html
-<h1 id="site-heading">Our heading</h1>
-<a href="#site-heading">Link to heading</a>
-```
-
 ####Example
 Given the following markup can you be assured that the navbar id is not being targeted by CSS, JavaScript, or automation scripts? If you change the id, will anything break?
 
@@ -42,3 +29,16 @@ This gives us confidence that
 * `data-automation-id` is an automation id
 
 Using this approach instead of an id attribute gives us a separation of concerns which allows the CSS class, JavaScript binding, and automation id to change independently of each other.
+
+####Exceptions
+Accessibility spec implementation
+```html
+<label for="email">Email</label>
+<input id="email" name="email" type="email" />
+```
+
+Anchor link
+```html
+<h1 id="site-heading">Our heading</h1>
+<a href="#site-heading">Link to heading</a>
+```
