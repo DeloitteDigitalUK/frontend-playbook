@@ -14,12 +14,14 @@ The use of id attributes is discouraged when writing HTML. We consider the id at
 Given the following markup can you be assured that the navbar id is not being targeted by CSS, JavaScript, or automation scripts? If you change the id, will anything break?
 
 ```html
+<!-- bad -->
 <div id="navbar"></div>
 ```
 
 To separate our concerns and give a clearer picture to other developers we would instead suggest:
 
 ```html
+<!-- good -->
 <div class="navbar js-navbar" data-automation-id="navbar"></div>
 ```
 
