@@ -11,7 +11,7 @@ The use of id attributes is discouraged when writing HTML. We consider the id at
 * The same id attribute can only appear once on a page, which may be a challenge when working with components
 
 ####Exceptions
-* Accessible label for form field input
+* Accessibility spec implementation
 * Anchor link
 
 ####Example
