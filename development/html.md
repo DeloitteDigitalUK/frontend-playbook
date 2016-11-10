@@ -11,11 +11,20 @@ The use of id attributes is discouraged when writing HTML. We consider the id at
 * The same id attribute can only appear once on a page, which may be a challenge when working with components
 
 ####Exceptions
-* Accessibility spec implementation
-* Anchor link
+Accessibility spec implementation
+```html
+<label for="email">Email</label>
+<input id="email" name="email" type="email" />
+```
+
+Anchor link
+```html
+<h1 id="site-heading">Our heading</h1>
+<a href="#site-heading">Link to heading</a>
+```
 
 ####Example
-Given the following markup can you be assured that the navbar id is not being targeted by CSS, Javascript, or automation scripts? If you change the id, will anything break?
+Given the following markup can you be assured that the navbar id is not being targeted by CSS, JavaScript, or automation scripts? If you change the id, will anything break?
 
 ```html
 <div id="navbar"></div>
