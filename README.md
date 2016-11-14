@@ -4,7 +4,10 @@
 
 Hello and welcome! This is our playbook. 
 It's filled with things we've learned based on our own experience and study of others'.
-It is a battle-tested set of conventions, practical approaches and best practices that allows us to design and build systems that move our client projects forward. This document covers all the vital components of the web app: client- and server-side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
+It is a battle-tested set of conventions, practical approaches and best practices that allows us to design and build systems that move our client projects forward.
+
+This document covers all the vital components of the web app: client- and server-side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
+
 
 ##Contributing
 
@@ -14,7 +17,8 @@ Please keep discussion inside the issues and pull requests, avoiding Slack, hall
 
 [Read the full contributor guide](CONTRIBUTING.md).
 
-##Development
+## Contents
 
+### Development
 * [HTML](/development/Html.md)
 * [Accessibility](/development/Accessibility.md)
