@@ -1,5 +1,5 @@
 # Development
 
 ## Contents
-* [HTML](Html.mdeded)de
-* [Accessibility](Accessibility.md)
+* [HTML](development/Html.mdeded)de
+* [Accessibility](development/Accessibility.md)
