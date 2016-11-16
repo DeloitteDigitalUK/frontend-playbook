@@ -11,9 +11,7 @@ This document covers all the vital components of the web app: client- and server
 
 ## Contributing
 
-To contribute please create a new branch for each section, then create a pull request to merge your changes in.
-
-Please keep discussion inside the issues and pull requests, avoiding Slack, hallway conversations etc. Discussions can be of benefit to people apart from us.
+This playbook belongs belongs to everyone in the DD Front-End teams. You own this as much as anyone else, and your thoughts and suggestions are crucial to making it useful to others. Get stuck into it!
 
 [Read the full contributor guide](CONTRIBUTING.md).
 
