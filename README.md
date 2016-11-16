@@ -9,7 +9,7 @@ It is a battle-tested set of conventions, practical approaches and best practice
 This document covers all the vital components of the web app: client- and server-side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
 
 
-##Contributing
+## Contributing
 
 To contribute please create a new branch for each section, then create a pull request to merge your changes in.
 
