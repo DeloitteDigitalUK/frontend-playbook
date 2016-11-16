@@ -10,7 +10,7 @@ TBA
 
 ## How Can I Contribute?
 * Fork this repo.
-* Add you change to a branch.
+* Add your change to a branch.
 * Write a good commit message.
 * Push to your fork.
 * Submit a pull request and mention how your change affect the project.
