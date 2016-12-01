@@ -1,5 +1,7 @@
 # Deloitte Digital Front-End Playbook
 
+<img src="/assets/fed-logo.png" width="200" align="left">
+
 Hello and welcome! This is our playbook.
 It's filled with things we've learned based on our own experience and study of others'.
 It is a battle-tested set of conventions, practical approaches and best practices that allow us to design and build systems that move our client projects forward.
