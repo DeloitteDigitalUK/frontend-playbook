@@ -6,7 +6,7 @@ Hello and welcome! This is our playbook.
 It's filled with things we've learned based on our own experience and study of others'.
 It is a battle-tested set of conventions, practical approaches and best practices that allow us to design and build systems that move our client projects forward.
 
-This document covers all the vital components of the web app: client- and server-side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
+This document covers all the vital components of the web app: client and server side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
 
 ## What the playbook is
 - a space to share our standards / gotchas for FED development and DevOps and facilitate discussions around it.
