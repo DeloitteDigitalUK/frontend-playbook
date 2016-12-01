@@ -9,7 +9,7 @@ It is a battle-tested set of conventions, practical approaches and best practice
 This document covers all the vital components of the web app: client and server side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
 
 ## What the playbook is
-- a space to share our standards / gotchas for FED development and DevOps and facilitate discussions around it.
+- a space to share our standards / gotchas for front-end development and DevOps and facilitate discussions around it.
 - a document that is primarily aimed at our own developers, but is generic enough to be consumed by a wider audience.
 - a place where we focus more on principles and practices over specifics of tooling and implementation.
 - a curated list of resources and links for recommended tools / boilerplates / libraries that meet our standards and can help us speed up development.
