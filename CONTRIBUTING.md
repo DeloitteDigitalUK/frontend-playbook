@@ -6,7 +6,10 @@ The following is a set of guidelines for contributing to Front-End Playbook whic
 These are just guidelines, not rules. Use your best judgement, and feel free to propose changes to this document in a pull request.
 
 ## Guidelines
-* Ensure file names use [Pascal case](https://en.wikipedia.org/wiki/PascalCase), with the exception of README.md, CONTRIBUTING.md, and PULL_REQUEST_TEMPLATE.md.
+* Ensure file names use [Pascal case](https://en.wikipedia.org/wiki/PascalCase), with the exception of
+    * README.md
+    * CONTRIBUTING.md
+    * PULL_REQUEST_TEMPLATE.md
 
 ## How Can I Contribute?
 * Fork this repo.
