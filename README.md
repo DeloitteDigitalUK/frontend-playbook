@@ -9,13 +9,13 @@ This document covers all the vital components of the web app: client- and server
 ## What the Playbook is
 - a space to share our standards / gotchas for FED development and DevOps and facilitate discussions around it.
 - a document that is primarily aimed at our own developers, but is generic enough to be consumed by a wider audience.
-- principles and practices over specifics of tooling and implementation.
+- a place where we focus more on principles and practices over specifics of tooling and implementation.
 - a curated list of resources and links for recommended tools / boilerplates / libraries that meet our standards and can help us speed up development.
 
 ## What the playbook is not
-- Starter apps and boilerplates. We believe that a separate repo can help keep the code up-to-date and attract external contributors. 
-- Learning catalogue. [The Path of the Ninja](https://github.com/DeloitteDigitalUK/fed-path-of-the-ninja) should cover all of our FED learning recommendations.
-- Technology-specific advice better covered elsewhere, time-sensitive information, browser support, specs, comparissons, metrics. The source is likely to be more up-to-date, so we should point to external resources which are better maintained.
+- a collection of starter apps and boilerplates. We believe that a separate repo can help keep the code up-to-date and attract external contributors. 
+- a learning catalogue. [The Path of the Ninja](https://github.com/DeloitteDigitalUK/fed-path-of-the-ninja) should cover all of our FED learning recommendations.
+- a place for technology-specific advice better covered elsewhere, time-sensitive information, browser support, specs, comparissons, metrics. The source is likely to be more up-to-date, so we should point to external resources which are better maintained.
 
 ## Contributing
 
