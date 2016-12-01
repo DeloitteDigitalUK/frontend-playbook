@@ -1,4 +1,4 @@
-# Deloitte Digital Frontend Playbook
+# Deloitte Digital Front-end Playbook
 
 Hello and welcome! This is our playbook. 
 It's filled with things we've learned based on our own experience and study of others'.
@@ -14,12 +14,12 @@ This document covers all the vital components of the web app: client- and server
 
 ## What the playbook is not
 - a collection of starter apps and boilerplates. We believe that a separate repo can help keep the code up-to-date and attract external contributors. 
-- a learning catalogue. [The Path of the Ninja](https://github.com/DeloitteDigitalUK/fed-path-of-the-ninja) should cover all of our FED learning recommendations.
+- a learning catalogue. [The Path of the Ninja](https://github.com/DeloitteDigitalUK/fed-path-of-the-ninja) should cover all of our front-end learning recommendations.
 - a place for technology-specific advice better covered elsewhere, time-sensitive information, browser support, specs, comparissons, metrics. The source is likely to be more up-to-date, so we should point to external resources which are better maintained.
 
 ## Contributing
 
-This playbook belongs belongs to everyone in the DD Front-End teams. You own this as much as anyone else, and your thoughts and suggestions are crucial to making it useful to others. Get stuck into it!
+This playbook belongs belongs to everyone in the DD front-end teams. You own this as much as anyone else, and your thoughts and suggestions are crucial to making it useful to others. Get stuck into it!
 
 [Read the full contributor guide](CONTRIBUTING.md).
 
