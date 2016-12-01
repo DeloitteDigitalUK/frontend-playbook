@@ -26,5 +26,5 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 ## Contents
 
 ### Development
-* [HTML](/development/HTML.md)
-* [Accessibility](/development/ACCESSIBILITY.md)
+* [HTML](/development/Html.md)
+* [Accessibility](/development/Accessibility.md)
