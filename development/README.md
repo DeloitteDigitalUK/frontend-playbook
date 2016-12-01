@@ -1,5 +1,5 @@
 # Development
 
 ## Contents
-* [HTML](/development/Html.md)
-* [Accessibility](/development/Accessibility.md)
+* [HTML](/development/HTML.md)
+* [Accessibility](/development/ACCESSIBILITY.md)
