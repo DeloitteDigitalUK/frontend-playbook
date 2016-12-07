@@ -67,7 +67,7 @@ General technologies you should start implementing:
 * Domain sharding for HTTP/1.1
 * If domain sharding enabled, disable it for HTTP/2 or use a multidomain certificate
 
-### Performance Evaluation Metrics ###
+### Performance Evaluation Metrics
 
 * Time to first byte (ms)
 * Start render (ms)
@@ -78,12 +78,12 @@ General technologies you should start implementing:
 * Page speed insights score
 
 
-### Tools ###
+### Tools
 * [PageSpeed](https://developers.google.com/speed/pagespeed/)
 * [YSlow](http://yslow.org/)
 * [WebpageTest](https://www.webpagetest.org/)
 * [All tools in one place](http://perf.rocks/tools/)
 
-### More on Web Performance Optimisation ###
+### More on Web Performance Optimisation
 * [Perf Rocks](http://perf.rocks)
 * [Ilya Grigorik](https://www.igvita.com/)
