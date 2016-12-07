@@ -17,7 +17,7 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 ### Images
 
 * Don’t use blocking images (Base64) as a general rule
-* Apply responsive images with srcset and `<picture>`
+* Apply responsive images with `srcset` and `<picture>`
 * Use CSS/SVG Sprites on HTTP/1.1
 * Compress your images
 * Use progressive JPEG when possible
