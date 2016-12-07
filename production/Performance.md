@@ -3,7 +3,6 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 
 ### Initial loading
 
-
 * Don’t use client-side rendering for the initial view
 * Announce DNS as soon as possible with `dns-prefetch`
 * Announce resources using [Resource Hints](https://www.w3.org/TR/resource-hints/)
@@ -13,6 +12,7 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 * Analyze usage of defer or async in every `<script>` element
 * Do not manipulate the page on `DOMContentLoaded` event
 * Use HTTP/2 server push when possible
+
 
 ### Images
 
@@ -24,11 +24,13 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 * Use SVG when possible
 * [Replace animated GIFs with muted videos](http://rigor.com/blog/2015/12/optimizing-animated-gifs-with-html5-video) when possible
 
+
 ### Web fonts
 
 * Use web fonts with a [font loader](https://github.com/typekit/webfontloader)
 * Use web fonts with a CDN
 * Optimise web fonts, removing glyphs and unused characters
+
 
 ### Responsiveness
 
@@ -39,6 +41,7 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 * Use `will-change` on elements that will be animated to avoid repaint
 * Use [CSS containment](https://developers.google.com/web/updates/2016/06/css-containment) to reduce browsers’ useless recalculations
 * Use the browser’s developer tools to turn on an FPS meter and check that you are reaching your goal of 60 fps, mostly while scrolling or animating
+
 
 ### Network
 
