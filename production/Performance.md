@@ -50,14 +50,14 @@ General technologies you should start implementing:
 * TLS (HTTPS)
 * HTTP/2
 
-***Check that you have ticked off everything on the list below***
+**Check that you have ticked off everything on the list below**
 
 * gzip enabled on all text files
 * DNS queries kept to a minimum
 * Keep-alive enabled
 * Minimium/No redirects
 
-***Some nice to haves***
+**Some nice to haves**
 
 * If serving on TLS, use HSTS
 * Small cookie size
