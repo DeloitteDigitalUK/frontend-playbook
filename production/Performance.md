@@ -36,7 +36,7 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 * Use a mobile viewport or touch-action CSS to [remove touch delay](https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away)
 * Use passive listeners, debouncing, or throttling on scroll and resize events
 * Use web workers for long tasks
-* Use will-change on elements that will be animated to avoid repaint
+* Use `will-change` on elements that will be animated to avoid repaint
 * Use [CSS containment](https://developers.google.com/web/updates/2016/06/css-containment) to reduce browsers’ useless recalculations
 * Use the browser’s developer tools to turn on an FPS meter and check that you are reaching your goal of 60 fps, mostly while scrolling or animating
 
