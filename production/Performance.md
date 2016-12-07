@@ -6,13 +6,13 @@ This section lists performance optimisations and "gotchas" that we recommend to 
 * Don’t use client-side rendering for the initial view
 * Announce DNS as soon as possible with `dns-prefetch`
 * Announce resources using [Resource Hints](https://www.w3.org/TR/resource-hints/)
+* Try to fit above the fold content in 14KB - this allows the browser to paint the page after just one roundtrip
 * Announce CSS first thing
 * Don’t use blocking JavaScript, try to put scripts just before the closing `</body>`
 * Minify and concatenate JavaScript and CSS if using HTTP1.1
 * Analyze usage of defer or async in every `<script>` element
 * Do not manipulate the page on `DOMContentLoaded` event
 * Use HTTP/2 server push when possible
-
 
 ### Images
 
@@ -56,6 +56,7 @@ General technologies you should start implementing:
 * DNS queries kept to a minimum
 * Keep-alive enabled
 * Minimium/No redirects
+* Minimize round trips to reduce call latency on HTTP 1.1
 
 **Some nice to haves**
 
@@ -65,3 +66,24 @@ General technologies you should start implementing:
 * CDN for static content
 * Domain sharding for HTTP/1.1
 * If domain sharding enabled, disable it for HTTP/2 or use a multidomain certificate
+
+### Performance Evaluation Metrics ###
+
+* Time to first byte (ms)
+* Start render (ms)
+* Speed Index on initial view
+* Speed Index on repeat view
+* Page load time on initial view
+* Page load time on repeat view
+* Page speed insights score
+
+
+### Tools ###
+* [PageSpeed](https://developers.google.com/speed/pagespeed/)
+* [YSlow](http://yslow.org/)
+* [WebpageTest](https://www.webpagetest.org/)
+* [All tools in one place](http://perf.rocks/tools/)
+
+### More on Web Performance Optimisation ###
+* [Perf Rocks](http://perf.rocks)
+* [Ilya Grigorik](https://www.igvita.com/)
