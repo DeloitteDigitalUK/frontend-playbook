@@ -5,7 +5,8 @@
 ##Package Managers
 _Host the javascript libraries and provide tools for fetching and packaging them._
 * 🌟[Bower](https://github.com/bower/bower) - A package manager for the web.
-* 🌟[NPM](https://www.npmjs.com) - node package manager.
+* 🌟[NPM](https://www.npmjs.com) - Node package manager.
+* [YARN](https://github.com/yarnpkg/yarn) - A package manager by Facebook 
 
 ##Loaders
 _Module or loading system for JavaScript._
@@ -14,6 +15,7 @@ _Module or loading system for JavaScript._
 * [yepnope.js](https://github.com/SlexAxton/yepnope.js) - An Asynchronous Conditional Resource Loader.
 * [curl](https://github.com/cujojs/curl) - A small, fast, extensible module loader that handles AMD, CommonJS Modules/1.1, CSS, HTML/text, and legacy scripts.
 * [lazyload](https://github.com/rgrove/lazyload/) - Tiny, dependency-free async JavaScript and CSS loader.
+* 🌟[webpack](https://github.com/webpack/webpack) - A bundler for JavaScript.
 
 ##Testing Frameworks and tools
 * 🌟[mocha](https://github.com/visionmedia/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
