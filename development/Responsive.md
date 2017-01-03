@@ -1,6 +1,8 @@
-# Responsive Patterns
+# Responsive
 
-## Navigation
+## Responsive patterns
+
+### Navigation
 
 #### Mobile menu
 
