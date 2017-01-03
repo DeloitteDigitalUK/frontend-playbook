@@ -1,21 +1,23 @@
 #Tools of Trade
 
+🌟 - indicates our preferences.
+
 ##Package Managers
 _Host the javascript libraries and provide tools for fetching and packaging them._
-* [Bower](https://github.com/bower/bower) - A package manager for the web.
-* [NPM](https://www.npmjs.com) - node package manager.
+* 🌟[Bower](https://github.com/bower/bower) - A package manager for the web.
+* 🌟[NPM](https://www.npmjs.com) - node package manager.
 
 ##Loaders
 _Module or loading system for JavaScript._
-* [RequireJS](https://github.com/requirejs/requirejs) - A file and module loader for JavaScript.
-* [browserify](https://github.com/substack/node-browserify) - Browser-side require() the node.js way.  
+* 🌟[RequireJS](https://github.com/requirejs/requirejs) - A file and module loader for JavaScript.
+* 🌟[browserify](https://github.com/substack/node-browserify) - Browser-side require() the node.js way.  
 * [yepnope.js](https://github.com/SlexAxton/yepnope.js) - An Asynchronous Conditional Resource Loader.
 * [curl](https://github.com/cujojs/curl) - A small, fast, extensible module loader that handles AMD, CommonJS Modules/1.1, CSS, HTML/text, and legacy scripts.
 * [lazyload](https://github.com/rgrove/lazyload/) - Tiny, dependency-free async JavaScript and CSS loader.
 
 ##Testing Frameworks and tools
-* [mocha](https://github.com/visionmedia/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
-* [jasmine](https://github.com/pivotal/jasmine) - DOM-less simple JavaScript testing framework.
+* 🌟[mocha](https://github.com/visionmedia/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
+* 🌟[jasmine](https://github.com/pivotal/jasmine) - DOM-less simple JavaScript testing framework.
 * [Jest](https://facebook.github.io/jest) - facebook testing framework based on Jasmine, mocks CommonJS and DOM API on top of it.
 * [qunit](https://github.com/jquery/qunit) - An easy-to-use JavaScript Unit Testing framework.
 * [chai](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
@@ -24,14 +26,14 @@ _Module or loading system for JavaScript._
 * [JsTestDriver](https://code.google.com/p/js-test-driver/) - single JAR file which contains everything you need for JS Testing. + Eclipse & IntelliJ versions.
 * [Buster.js](http://busterjs.org/) - great testing toolkit, still in beta.
 * [Sinon.js](http://sinonjs.org/) - js mocks
-* [istanbul](https://github.com/gotwarlost/istanbul) - Yet another JS code coverage tool.
+* 🌟[istanbul](https://github.com/gotwarlost/istanbul) - Yet another JS code coverage tool.
 * [blanket](https://github.com/alex-seville/blanket) - A simple code coverage library for javascript. Designed to be easy to install and use, for both browser and nodejs.
 * [JSCover](https://github.com/tntim96/JSCover) - JSCover is a tool that measures code coverage for JavaScript programs.
-* [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless WebKit.
+* 🌟[phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless WebKit.
 * [slimerjs](https://github.com/laurentj/slimerjs) - A PhantomJS-like tool running Gecko.
 * [casperjs](https://github.com/n1k0/casperjs) - Navigation scripting & testing utility for PhantomJS and SlimerJS.
 * [zombie](https://github.com/assaf/zombie) - Insanely fast, full-stack, headless browser testing using node.js.
-* [karma](https://github.com/karma-runner/karma) - Framework agnostic test Runner for JavaScript.
+* 🌟[karma](https://github.com/karma-runner/karma) - Framework agnostic test Runner for JavaScript.
 * [Nightwatch](http://nightwatchjs.org/) - Browser automated testing with simple JS syntax.
 
 ##MVVM Frameworks
@@ -72,11 +74,11 @@ _Data visualization tools for the web._
 ##Functional Programming
 _Functional programming libraries to extend JavaScript’s capabilities._
 * [underscore](https://github.com/jashkenas/underscore) - JavaScript's utility _ belt.
-* [lodash](https://github.com/lodash/lodash) - A utility library delivering consistency, customization, performance, & extras.
+* 🌟[lodash](https://github.com/lodash/lodash) - A utility library delivering consistency, customization, performance, & extras.
 
 ##Date
 _Date Libraries._
-* [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
+* 🌟[moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
 * [moment-timezone](https://github.com/moment/moment-timezone) - Timezone support for moment.js.
 * [jquery-timeago](https://github.com/rmm5t/jquery-timeago) - A jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. "4 minutes ago").
 * [timezone-js](https://github.com/mde/timezone-js) - Timezone-enabled JavaScript Date object. Uses Olson zoneinfo files for timezone data.
@@ -98,7 +100,7 @@ _String Libraries._
 
 ##Control Flow
 * [async](https://github.com/caolan/async) - Async utilities for node and the browser.
-* [q](https://github.com/kriskowal/q) - A tool for making and composing asynchronous promises in JavaScript.
+* 🌟[q](https://github.com/kriskowal/q) - A tool for making and composing asynchronous promises in JavaScript.
 
 ##Routing
 * [director](https://github.com/flatiron/director) - A tiny and isomorphic URL router for JavaScript.
@@ -121,11 +123,11 @@ _Libraries for indicate load status._
 Besides libraries, there're Collection on [Codepen](https://codepen.io/collection/HtAne/), and generators like [Ajaxload](https://www.ajaxload.info/), [Preloaders](https://preloaders.net/) and [CSSLoad](https://cssload.net/).
 
 ##Validation
-* [Parsley.js](https://github.com/guillaumepotier/Parsley.js) - Validate your forms, front-end, without writing a single line of javascript.
+* 🌟[Parsley.js](https://github.com/guillaumepotier/Parsley.js) - Validate your forms, front-end, without writing a single line of javascript.
 * [jquery-validation](https://github.com/jzaefferer/jquery-validation) - jQuery Validation Plugin.
 
 ##Sliders
-* [Slick](http://kenwheeler.github.io/slick/) - the last carousel you'll ever need.
+* 🌟[Slick](http://kenwheeler.github.io/slick/) - the last carousel you'll ever need.
 * [Swiper](https://github.com/nolimits4web/Swiper) - Mobile touch slider and framework with hardware accelerated transitions.
 * [FlexSlider](https://github.com/woothemes/FlexSlider) - An awesome, fully responsive jQuery slider plugin.
 * [unslider](https://github.com/idiot/unslider) - The simplest jQuery slider there is.
