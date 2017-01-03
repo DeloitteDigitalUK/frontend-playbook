@@ -36,7 +36,7 @@ However, time.com are using it successfully. UX team at Booking.com recently [su
 
 UI element, pattern, or feature is never tested in isolation. It is tested against a very specific user base in a very specific scenario. What works for Booking.com may not work for you and your users. This is the reason we A/B test in the first place, because the findings of other are all unproven until they’ve been tested against our customers, on our platform.
 
-Every responsive navigation system can be problematic. Use A/B tests to verify if it works for your users.
+💡 _Every responsive navigation system can be problematic. Use A/B tests to verify if it works for your users._
 
 
 #### Hidden drawers issue
@@ -47,4 +47,4 @@ In discussing common design issues in apps for iOS, Mike Stern, a user experienc
 
 **You have to prioritise**.
 
-Drawers of any kind have a nasty tendency to fill with junk. We should use small screens as a lens through which we view every aspect of our designs, including navigation.
+💡 _Use small screens as a lens through which we view every aspect of our designs, including navigation._
