@@ -1,6 +1,6 @@
 #API Mocks
 ##Aim
-The aim of using mocks is to replicate specific API calls without modifying application code. i.e. developer should be able to switch mock API on and off as I needed. Ideally, an application can be developed and run in an "airplane" mode, without any 3rd party dependencies. This will enable rapid and dependency free front-end development.
+The aim of using mocks is to replicate specific API calls without modifying application code. i.e. developer should be able to switch mock API on and off as needed. Ideally, an application can be developed and run in an "airplane" mode, without any 3rd party dependencies. This will enable rapid and dependency-free front-end development.
 
 ##Consistency
 To achieve consistency in implementation we strongly suggest to base mocks on [openAPI](https://www.openapis.org/specification/repo) standard and make sure that other systems use the same contracts.
@@ -17,10 +17,11 @@ OpenAPI contracts need to be defined in code, utilise version control and be mai
 
 4. **Work offline.** Finally, maybe you need to work on a plane, on the road, or in other places where connectivity is poor. Mocking allows you to work offline because your calls remain local.
 
-##Online
-* [Apigee](https://apigee.com/)
-* [apiary](https://apiary.io/)
+##Tools
+* **Online**
+  * [Apigee](https://apigee.com/)
+  * [apiary](https://apiary.io/)
 
-##Offline
-* [Imposter](https://github.com/outofcoffee/imposter)
-* [Swagger](http://swagger.io/)
+* **Offline**
+  * [Imposter](https://github.com/outofcoffee/imposter)
+  * [Swagger](http://swagger.io/)
