@@ -1,6 +1,38 @@
 #Tools of Trade
+_Provides a list of tools that we use in our day-to-day activities._
 
-🌟 - indicates our preferences.
+**Last updated 4 January 2017**
+
+##Embrace
+_We have a positive opinion about these items and use them when appropriate in our project._
+* [Bower](https://github.com/bower/bower) - A package manager for the web.
+* [NPM](https://www.npmjs.com) - Node package manager.
+* [webpack](https://github.com/webpack/webpack) - A bundler for JavaScript.
+* [mocha](https://github.com/visionmedia/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
+* [jasmine](https://github.com/pivotal/jasmine) - DOM-less simple JavaScript testing framework.
+* [chai](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
+* [karma](https://github.com/karma-runner/karma) - Framework agnostic test Runner for JavaScript.
+* [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless WebKit.
+* [React](https://facebook.github.io/react/) - UI library by facebook.
+* [lodash](https://github.com/lodash/lodash) - A utility library delivering consistency, customization, performance, & extras.
+
+##Explore
+_We believe these are worth exploring and adopting in projects._
+* [Nightwatch](http://nightwatchjs.org/) - Browser automated testing with simple JS syntax.
+* [Vue.js](https://vuejs.org/) - Intuitive, Fast and Composable MVVM for building interactive interfaces.
+* [YARN](https://github.com/yarnpkg/yarn) - A package manager by Facebook
+* [Meteor](https://www.meteor.com/) - an open source platform for web, mobile, and desktop.
+* [Cycle.js](https://cycle.js.org/) - A functional and reactive JavaScript framework for cleaner code.
+
+
+##Hold
+_Not our first choice when implementing a project._
+* [angular.js](https://github.com/angular/angular.js) - HTML enhanced for web apps.
+* [flight](https://flightjs.github.io/) - An event-driven web framework, from Twitter. Good fit with CQ, Hybris.
+
+
+
+#Previous list - **to be removed after sorting.**
 
 ##Package Managers
 _Host the javascript libraries and provide tools for fetching and packaging them._
