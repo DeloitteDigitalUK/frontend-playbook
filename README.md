@@ -33,3 +33,7 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 
 ### Production
 * [Performance](/production/Performance.md)
+
+### Events
+* [2017 Conferences](https://github.com/frontendfront/front-end-conferences/blob/master/README.md)
+
