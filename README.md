@@ -33,3 +33,6 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 
 ### Production
 * [Performance](/production/Performance.md)
+
+### Learning
+* [Learning Resources](/learning/Resources.md)
