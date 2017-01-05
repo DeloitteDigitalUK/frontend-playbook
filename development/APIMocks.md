@@ -24,4 +24,4 @@ OpenAPI contracts need to be defined in code, utilise version control and be mai
 
 * **Offline**
   * [Imposter](https://github.com/outofcoffee/imposter)
-  * [Swagger](http://swagger.io/)
+  * [Swagger](http://swagger.io/) - an example of OpenAPI can be found [here](http://editor.swagger.io/) - please play around to familiarise yourself with it. OpenAPI also supports various libraries and frameworks. A full list can be found [here](http://swagger.io/open-source-integrations/)
