@@ -1,4 +1,11 @@
 #React app structure
+## Contents
+* [Main folders of the application](#main-folders-of-the-application)
+* [File structure](#file-structure)
+* [Components](#components)
+* [Containers](#containers)
+* [Pages](#pages)
+
 
 ## Main folders of the application
 * **components**: reusable common components
@@ -28,7 +35,7 @@ comprising all the actual pages of our application.
 
 	* pages and page specific components that are not used elsewhere.
 	
-## File Structure
+## File structure
 src  
 ├── js  
 │	├── components  
