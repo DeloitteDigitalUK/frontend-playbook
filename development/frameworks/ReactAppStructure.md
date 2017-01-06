@@ -56,7 +56,7 @@ component name + extension
 Here is an example of the file structure that should be used:
 
 ├── components  
-│   ├── Header
+│   ├── Header  
 │   │   ├── Header.js  
 │   │   ├── Header.scss  
 │   │   ├── assets  
