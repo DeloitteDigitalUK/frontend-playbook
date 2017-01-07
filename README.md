@@ -16,7 +16,7 @@ This document covers all the vital components of the web app: client and server 
 
 ## What the playbook is not
 - a collection of starter apps and boilerplates. We believe that a separate repo can help keep the code up-to-date and attract external contributors.
-- a learning catalogue. [The Path of the Ninja](https://github.com/DeloitteDigitalUK/fed-path-of-the-ninja) should cover all of our front-end learning recommendations.
+- a learning catalogue. [Learning Resources](/learning/Resources.md) should cover all of our front-end learning recommendations.
 - a place for technology-specific advice better covered elsewhere, time-sensitive information, browser support, specs, comparisons, metrics. The source is likely to be more up-to-date, so we should point to external resources which are better maintained.
 
 ## Contributing
