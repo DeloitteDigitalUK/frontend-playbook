@@ -4,10 +4,21 @@ _Provides a list of tools that we use in our day-to-day activities._
 **Last updated 9 January 2017**
 
 ##Techniques
+
+###Adopt
 * **API MOCKS**  
 _API Mocks enable rapid and dependency-free front-end development as we are working in constantly changing environment._
 
+###Trial
+
+###Assess
+
+###Hold
+
+
 ##Libraries
+
+###Adopt
 
 * **classnames**  
 _Write short descriptions of why we are using it here._
@@ -96,9 +107,6 @@ _Write short description of why we are using it here._
 * **bootstrap-sass**  
 _Write short description of why we are using it here._
 
-* **bowser**  
-_Write short description of why we are using it here._
-
 * **chai**  
 _Write short description of why we are using it here._
 
@@ -141,9 +149,6 @@ _Write short description of why we are using it here._
 * **karma-phantomjs-launcher**  
 _Write short description of why we are using it here._
 
-* **keymirror**  
-_Write short description of why we are using it here._
-
 * **mocha**  
 _Write short description of why we are using it here._
 
@@ -183,8 +188,31 @@ _Write short description of why we are using it here._
 * **url-loader**  
 _Write short description of why we are using it here._
 
+
+###Trial
+* **bowser**  
+_Write short description of why we are using it here._
+
 * **yargs**  
 _Write short description of why we are using it here._
 
+* **keymirror**  
+_Write short description of why we are using it here._
+
+###Assess
+
+
+###Hold
+
 ##Tools
 _To be completed_
+
+###Adopt
+
+###Trial
+
+
+###Assess
+
+
+###Hold
