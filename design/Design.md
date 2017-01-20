@@ -19,7 +19,7 @@ Project hub is one central, shared place with one URL, with all important assets
 * Identify simple **rules** on how parts fit together.
 * The language is refined during prototyping.
 
-**Rules Example**
+**Rules Example**  
 *Vertical spacing for a module is always proportional to the line-height of the base font size.*  
 *Bridges always appear between two modules.*  
 *Helpers never appear after bridges.*  
@@ -29,7 +29,7 @@ Project hub is one central, shared place with one URL, with all important assets
 * Design as assembly of flexible, distinct modules.
 * Pattern library embodies the design language.
 
-••Pattern Libraries Examples**
+**Pattern Libraries Examples**  
 * [FutureLean Pattern Library](https://www.futurelearn.com/pattern-library)
 
 If you have to do extra work to update your style guide when making changes to your look and feel, the likelihood of it staying up to date is pretty slim.
