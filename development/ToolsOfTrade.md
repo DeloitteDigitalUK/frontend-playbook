@@ -1,7 +1,14 @@
 # Tools of Trade
 _Provides a list of tools that we use in our day-to-day activities._
 
-##Techniques
+## Contents
+- [Techniques](#techniques)
+- [Libraries](#libraries)
+- [Tools](#tools)
+
+
+---
+## Techniques
 
 ### Adopt
 * **API mocks**  
@@ -27,7 +34,8 @@ _Pair programming for remote teams, has slack integration_
 * TBA
 
 
-## Libraries / Frameworks
+---
+## Libraries
 
 ### Adopt
 * **classnames**
@@ -42,24 +50,26 @@ _Predictable client-side state management for complex apps_
 * **redux-form@6**
 * **redux-thunk**
 
-###Trial
+### Trial
 * **vue@2**
 * **vuex**
 
-###Assess
+### Assess
 * **angular@2**
 * **react native**
 
-###Hold
+### Hold
 * **angular@1**
 * **flux**
 * **superagent**  
 _Use fetch standardised approach and fetch-whatwg polyfill instead_
 * **redux-form@5**
 
-##Tools
 
-###Adopt
+---
+## Tools
+
+### Adopt
 * **babel@6**
 * **eslint**
 * **enzyme**  
@@ -72,7 +82,7 @@ _Helps to catch a11y issues early, works from command line_
 * **redux-devtools**
 * **webpack@1**
 
-###Trial
+### Trial
 * **immutable.js**  
 _useful for returning new instance of app state in a performant way_
 * **jest**  
@@ -81,7 +91,7 @@ _wasn't a pleasant experience with Jest in 2015, needs to be re-evaluated_
 * **tslint**
 * **webpack@2**
 
-###Assess
+### Assess
 * **galen framework**  
 _E2E testing for responsive designs, allows you to specify expectations for the appearance of your website in various screen sizes_
 * **grasp**
