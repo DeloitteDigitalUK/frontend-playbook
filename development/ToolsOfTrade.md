@@ -64,7 +64,6 @@ _Use fetch standardised approach and fetch-whatwg polyfill instead_
 * **eslint**
 * **enzyme**  
 _Best in class UI testing tool for React, allows to test without doing on-device rendering_
-
 * **karma**
 * **mocha**
 * **node-sass**
