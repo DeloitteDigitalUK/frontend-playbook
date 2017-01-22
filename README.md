@@ -2,9 +2,9 @@
 
 <img src="/assets/fed-logo.png" width="200" align="left">
 
-Hello and welcome! This is our playbook.
-It's filled with things we've learned based on our own experience and study of others'.
-It is a battle-tested set of conventions, practical approaches and best practices that allow us to design and build systems that move our client projects forward.
+Hello and welcome! This is our playbook.  
+It's filled with things we've learned based on our own experience and study of others'.  
+It is a battle-tested set of conventions, practical approaches and best practices that allow us to design and build systems that move our client projects forward.  
 
 This document covers all the vital components of the web app: client and server side JavaScript, CSS and SASS, HTML5, Accessibility, Performance, Automation and Tooling. This is a living document, and we are keen to share our knowledge on our journey towards making the web a better place.
 
@@ -16,7 +16,7 @@ This document covers all the vital components of the web app: client and server 
 
 ## What the playbook is not
 - a collection of starter apps and boilerplates. We believe that a separate repo can help keep the code up-to-date and attract external contributors.
-- a learning catalogue. [The Path of the Ninja](https://github.com/DeloitteDigitalUK/fed-path-of-the-ninja) should cover all of our front-end learning recommendations.
+- a learning catalogue. [Learning Resources](/learning/Resources.md) should cover all of our front-end learning recommendations.
 - a place for technology-specific advice better covered elsewhere, time-sensitive information, browser support, specs, comparisons, metrics. The source is likely to be more up-to-date, so we should point to external resources which are better maintained.
 
 ## Contributing
@@ -28,9 +28,15 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 ## Contents
 
 ### Development
-* [HTML](/development/Html.md)
-* [Accessibility](/development/Accessibility.md)
-* [Tools of Trade](/development/ToolsOfTrade.md)
+- [Accessibility](/development/Accessibility.md)
+- [API Mocks](/development/APIMocks.md)
+- [Frameworks](/development/frameworks/Frameworks.md)
+- [HTML](/development/Html.md)
+- [Responsive](/development/Responsive.md)
+- [Tools of Trade](/development/ToolsOfTrade.md)
 
 ### Production
-* [Performance](/production/Performance.md)
+- [Performance](/production/Performance.md)
+
+### Learning
+- [Learning Resources](/learning/Resources.md)
