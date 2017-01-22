@@ -1,218 +1,99 @@
-#Tools of Trade
+# Tools of Trade
 _Provides a list of tools that we use in our day-to-day activities._
-
-**Last updated 9 January 2017**
 
 ##Techniques
 
-###Adopt
-* **API MOCKS**  
+### Adopt
+* **API mocks**  
 _API Mocks enable rapid and dependency-free front-end development as we are working in constantly changing environment._
 
+### Trial
+* **Pipelines as code**  
+_defining the deployment pipeline through code instead of configuring a running CI/CD tool._
+
+* **Architecture desicion records**  
+_it's important to record certain design decisions for the benefit of future team members and for external oversight. Version controlled markdown suits perfectly. [See Example](https://github.com/npryce/adr-tools/tree/master/doc/adr)_
+
+* **Server-side rendering / Isomorphic apps**
+
+### Assess
+* **Micro frontends**  
+_a web application is broken up by its pages and features, with each feature being owned end-to-end by a single team._
+
+* **Screenhero**
+_Pair programming for remote teams, has slack integration_
+
+### Hold
+
+
+## Libraries / Frameworks
+
+### Adopt
+* **classnames**
+* **fetch-whatwg**  
+_moving away from JQuery or raw XHR for remote JavaScript calls and instead using the new Fetch API and this Fetch polyfill_
+
+* **lodash**
+* **moment**
+* **react**
+* **react-router**
+* **redux**
+_Predictable client-side state management for complex apps_
+
+* **redux-form@6**
+* **redux-thunk**
+
 ###Trial
+* **vue@2**
+* **vuex**
 
 ###Assess
+* **angular@2**
+* **react native**
 
 ###Hold
-
-
-##Libraries
-
-###Adopt
-
-* **classnames**  
-_Write short descriptions of why we are using it here._
-
-* **lodash**  
-_Write short descriptions of why we are using it here._
-
-* **react  **  
-_Write short descriptions of why we are using it here._
-
-* **react-router**  
-_Write short descriptions of why we are using it here._
-
+* **angular@1**
+* **flux**
 * **superagent**  
-_Write short descriptions of why we are using it here._
+_Use fetch standardised approach and fetch-whatwg polyfill instead_
 
-* **babel-core**  
-_Write short description of why we are using it here._
-
-* **babel-eslint**  
-_Write short description of why we are using it here._
-
-* **babel-loader**  
-_Write short description of why we are using it here._
-
-* **css-loader**  
-_Write short description of why we are using it here._
-
-* **eslint**  
-_Write short description of why we are using it here._
-
-* **eslint-plugin-react**  
-_Write short description of why we are using it here._
-
-* **history**  
-_Write short description of why we are using it here._
-
-* **moment**  
-_Write short description of why we are using it here._
-
-* **node-sass**  
-_Write short description of why we are using it here._
-
-* **react-dom**  
-_Write short description of why we are using it here._
-
-* **react-redux**  
-_Write short description of why we are using it here._
-
-* **redux**  
-_Write short description of why we are using it here._
-
-* **redux-thunk**  
-_Write short description of why we are using it here._
-
-* **rimraf**  
-_Write short description of why we are using it here._
-
-* **sass-loader**  
-_Write short description of why we are using it here._
-
-* **style-loader**  
-_Write short description of why we are using it here._
-
-* **webpack**  
-_Write short description of why we are using it here._
-
-* **webpack-dev-middleware**  
-_Write short description of why we are using it here._
-
-* **webpack-hot-middleware**  
-_Write short description of why we are using it here._
-
-* **babel-preset-es2015**  
-_Write short description of why we are using it here._
-
-* **babel-preset-react**  
-_Write short description of why we are using it here._
-
-* **babel-preset-stage-0**  
-_Write short description of why we are using it here._
-
-* **babel-runtime**  
-_Write short description of why we are using it here._
-
-* **bootstrap-sass**  
-_Write short description of why we are using it here._
-
-* **chai**  
-_Write short description of why we are using it here._
-
-* **eslint-plugin-import**  
-_Write short description of why we are using it here._
-
-* **eventsource-polyfill**  
-_Write short description of why we are using it here._
-
-* **express**  
-_Write short description of why we are using it here._
-
-* **extract-text-webpack-plugin**  
-_Write short description of why we are using it here._
-
-* **file-loader**  
-_Write short description of why we are using it here._
-
-* **html-webpack-plugin**  
-_Write short description of why we are using it here._
-
-* **imports-loader**  
-_Write short description of why we are using it here._
-
-* **json-loader**  
-_Write short description of why we are using it here._
-
-* **karma**  
-_Write short description of why we are using it here._
-
-* **karma-coverage**  
-_Write short description of why we are using it here._
-
-* **karma-mocha**  
-_Write short description of why we are using it here._
-
-* **karma-mocha-reporter**  
-_Write short description of why we are using it here._
-
-* **karma-phantomjs-launcher**  
-_Write short description of why we are using it here._
-
-* **mocha**  
-_Write short description of why we are using it here._
-
-* **phantomjs-prebuilt**  
-_Write short description of why we are using it here._
-
-* **react-addons-test-utils**  
-_Write short description of why we are using it here._
-
-* **react-bootstrap**  
-_Write short description of why we are using it here._
-
-* **react-router-redux**  
-_Write short description of why we are using it here._
-
-* **redux-devtools**  
-_Write short description of why we are using it here._
-
-* **redux-devtools-dock-monitor**  
-_Write short description of why we are using it here._
-
-* **redux-devtools-log-monitor**  
-_Write short description of why we are using it here._
-
-* **redux-form**  
-_Write short description of why we are using it here._
-
-* **redux-logger**  
-_Write short description of why we are using it here._
-
-* **sinon**  
-_Write short description of why we are using it here._
-
-* **sinon-chai**  
-_Write short description of why we are using it here._
-
-* **url-loader**  
-_Write short description of why we are using it here._
-
-
-###Trial
-* **bowser**  
-_Write short description of why we are using it here._
-
-* **yargs**  
-_Write short description of why we are using it here._
-
-* **keymirror**  
-_Write short description of why we are using it here._
-
-###Assess
-
-
-###Hold
+* **redux-form@5**
 
 ##Tools
-_To be completed_
 
 ###Adopt
+* **babel@6**
+* **eslint**
+* **enzyme**  
+_Best in class UI testing tool for React, allows to test without doing on-device rendering_
+
+* **karma**
+* **mocha**
+* **node-sass**
+* **pa11y**  
+_Helps to catch a11y issues early, works from command line_
+
+* **redux-devtools**
+* **webpack@1**
 
 ###Trial
+* **immutable.js**  
+_useful for returning new instance of app state in a performant way_
 
+* **jest**  
+_wasn't a pleasant experience with Jest in 2015, needs to be re-evaluated_
+
+* **ts-loader**
+* **tslint**
+* **webpack@2**
 
 ###Assess
+* **galen framework**  
+_E2E testing for responsive designs, allows you to specify expectations for the appearance of your website in various screen sizes_
 
+* **grasp**
+_Refactoring cli for JS_
 
-###Hold
+### Hold
+* **browserify**
+* **requireJS**
