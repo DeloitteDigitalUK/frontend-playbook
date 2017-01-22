@@ -84,9 +84,11 @@ _Helps to catch a11y issues early, works from command line_
 
 ### Trial
 - **immutable.js**  
-_useful for returning new instance of app state in a performant way_
+_Useful for returning new instance of app state in a performant way_
 - **jest**  
-_wasn't a pleasant experience with Jest in 2015, needs to be re-evaluated_
+_Jest wasn't a pleasant experience back in 2015, needs to be re-evaluated_
+- **nightwatch**  
+_Node.js based E2E testing solution, supports integration with SauceLabs and BrowserStack_
 - **ts-loader**
 - **tslint**
 - **webpack@2**
