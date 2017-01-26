@@ -67,7 +67,7 @@ Instead of dividing teams into skill sets, build **complementary** teams, focuse
   - Technical stack and tooling,
   - Testing and QA “buffer”.
   
-![RWD design workflow](assets/rwd-design-workflow.png)
+![RWD design workflow](/assets/rwd-design-workflow.png)
   
 ### Aim to build these in Discovery phase
 - Content prototypes 
