@@ -46,3 +46,36 @@ New modules are *first added to the PL*, then deployed. One-stop place for the e
 ### Ownership lies within the team  
 No “style guide master”. Integrate PL into the workflow.
 
+## Workflow
+Build smaller, **tactical** teams that are capable of executing multiple rounds of planning, design, and code quickly and independently.  
+
+### Responsive workflow
+Instead of dividing teams into skill sets, build **complementary** teams, focused on small tasks.  
+
+1. A project starts with building “all-round”-teams,
+2. Designers and developers working side by side,
+3. Thorough planning pays off in long term,
+4. Design components in Photoshop desktop first,
+5. Build mobile first = commitment to the content,
+6. Quick prototypes in the browser asap,
+7. Clear understanding of the “responsive” process.
+  - Project hub, components, pattern library,
+  - Core content/functionality priority lists,
+  - User interviews with content gap analysis,
+  - Performance and UX budgets,
+  - Legacy browser support,
+  - Technical stack and tooling,
+  - Testing and QA “buffer”.
+  
+### Responsive Sprint0 deliverables
+- Content prototypes 
+- Sketching in code 
+- Design patterns 
+- Pattern library 
+- Content reference wireframes
+- Breakpoint diagram
+- Progressive enhancement
+- Mobile-first prototype 
+- Setting up grid and breakpoints
+- Living style guide 
+- Visual regression testing
