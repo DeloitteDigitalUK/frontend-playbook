@@ -67,7 +67,7 @@ Instead of dividing teams into skill sets, build **complementary** teams, focuse
   - Technical stack and tooling,
   - Testing and QA “buffer”.
   
-### Responsive Sprint0 deliverables
+### Aim to build these in Discovery phase
 - Content prototypes 
 - Sketching in code 
 - Design patterns 
