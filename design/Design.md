@@ -81,9 +81,8 @@ Instead of dividing teams into skill sets, build **complementary** teams, focuse
 - Visual regression testing
 
 ### Define Performance budget
-Example:  
+Example
+
 | URL                                    | Start Render | Visually Complete | Fully Loaded |
 |----------------------------------------|--------------|-------------------|--------------|
 | https://eu.deloittedigital.com/en/home | 3s           | 5s                | 7s           |
-  
-
