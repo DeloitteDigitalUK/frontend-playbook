@@ -13,7 +13,6 @@
 - karma
 - istanbul
 - sonar
-- typescript
 - eslint
 - tslint
 
@@ -37,6 +36,10 @@
 - webpack
 - gulp
 - grunt
+
+## Transpilers
+- babel
+- typescript
 
 ## Productivity / Misc
 - Alfred
