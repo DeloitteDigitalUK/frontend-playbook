@@ -6,16 +6,22 @@
 - Visual Studio
 - Mou
 
-## Quality assurance
+## Code quality / Quality assurance
 - selenium
 - mocha
+- enzyme
 - karma
+- istanbul
+- sonar
+- typescript
+- eslint
+- tslint
 
 ## Web Servers
 - apache
 - nginx
 
-# Local dev environment
+## Local dev environment
 - docker
 
 ## Version control / Clients
@@ -36,7 +42,11 @@
 - Alfred
 - awscli
 - bash scripting
+- brew
 - hot-module-reloading
+- node-sass
 - FileMerge
+- nvm
+- yeoman
 
 
