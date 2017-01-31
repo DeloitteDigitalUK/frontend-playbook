@@ -1,4 +1,4 @@
-# Software that helps us to be productive
+# Software that helps us be productive
 
 ## Editors
 - Atom
