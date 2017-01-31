@@ -19,6 +19,7 @@
 ## Web Servers
 - apache
 - nginx
+- caddy
 
 ## Local dev environment
 - docker
@@ -41,15 +42,22 @@
 - babel
 - typescript
 
+## Troubleshooting
+- charles
+- chrome devtools
+- postman
+
 ## Productivity / Misc
 - Alfred
 - awscli
 - bash scripting
 - brew
+- gliffy
 - hot-module-reloading
 - node-sass
 - FileMerge
 - nvm
+- slack
 - yeoman
 
 
