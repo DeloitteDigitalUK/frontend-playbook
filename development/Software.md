@@ -3,7 +3,7 @@
 ## Editors
 - Atom
 - Sublime
-- Visual Studio
+- Visual Studio Code
 - Mou
 
 ## Code quality / Quality assurance
@@ -15,6 +15,7 @@
 - sonar
 - eslint
 - tslint
+- phantomjs
 
 ## Web Servers
 - apache
@@ -31,6 +32,14 @@
 ## Runtime
 - node
 
+## Wireframes
+- axure
+- balsamiq
+
+## Creative
+- photoshop
+- sketch
+
 ## Package managers / Task runners
 - npm
 - yarn
@@ -41,11 +50,14 @@
 ## Transpilers
 - babel
 - typescript
+- postcss
+- node-sass
 
-## Troubleshooting
+## HTTP / Network tools
 - charles
 - chrome devtools
 - postman
+- paw
 
 ## Productivity / Misc
 - Alfred
