@@ -34,18 +34,29 @@ For components, we divide components into the following main categories:
 comprising all the actual pages of our application.
 
 	* pages and page specific components that are not used elsewhere.
-	
+
+# Test files
+Test files live in a separate folder outside of the main folder, which replicates the src folder.
+
 ## File structure
-src  
-├── js  
-│	├── components  
-│   ├── config  
-│   ├── containers  
-│   ├── modules  
-│   ├── pages  
-│   ├── routes  
-│   ├── store  
-│   └── utils  
+```
+src
+├── components
+├── config
+├── containers
+├── modules
+├── pages
+├── routes
+├── store
+├── styles
+└── utils
+tests
+├── containers
+├── modules
+├── pages
+├── store
+├── utils
+```
 
 ## Components
 Should store all reusable components (even if they're currently only used once!). These are ideally stateless, state should be handled in the component's container.
