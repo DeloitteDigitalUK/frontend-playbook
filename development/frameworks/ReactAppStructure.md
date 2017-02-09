@@ -132,7 +132,7 @@ Each page is just a `.js` or `.ts` files, no folder required.
 Test files live in a separate folder outside of the main folder, which replicates the src folder. Test files should be suffixed with `.spec.js`.
 
 ```
-|tests
+tests
 ├── components
 │   ├── HeaderComponent.spec.js
 ```
