@@ -38,7 +38,7 @@ comprising all the actual pages of our application.
 ## File structure
 ```
 public
-├── images
+└── images
 src
 ├── components
 ├── config
@@ -55,7 +55,7 @@ tests
 ├── modules
 ├── pages
 ├── store
-├── utils
+└── utils
 ```
 
 ## Components
@@ -94,9 +94,9 @@ Should store smart components which handle state for stateless components.
 ```
 ├── containers
 │   └── Login
-│       ├── LoginContainer.js
-│       ├── LoginDucks.js
-│       └── index.js
+│   |   ├── LoginContainer.js
+│   |   ├── LoginDucks.js
+│   |   └── index.js
 ```
 
 The component is in a folder of its name. It always has a `.js` or `.ts` file of its name, as well as an `index.js` file. Optionally, it has a ducks file.
@@ -119,7 +119,7 @@ Page suffix is added to the page file name
 
 ```
 ├── pages
-│   ├── HomePage.js
+│   └── HomePage.js
 ```
 
 Each page is just a `.js` or `.ts` files, no folder required.
@@ -134,5 +134,5 @@ Test files live in a separate folder outside of the main folder, which replicate
 ```
 tests
 ├── components
-│   ├── HeaderComponent.spec.js
+│   └── HeaderComponent.spec.js
 ```
