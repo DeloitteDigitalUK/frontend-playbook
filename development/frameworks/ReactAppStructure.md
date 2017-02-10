@@ -69,7 +69,7 @@ Here is an example of the file structure that should be used:
 ```
 ├── components
 │   ├── Header
-│   │   ├── HeaderComponent.js
+│   │   ├── Header.js
 │   │   ├── Header.scss
 │   │   ├── assets
 │   │   │   ├── logo-back.jpg
