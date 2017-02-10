@@ -5,7 +5,7 @@
 * [Components](#components)
 * [Containers](#containers)
 * [Pages](#pages)
-
+* [Tests](#tests)
 
 ## Main folders of the application
 * **components**: reusable common components
@@ -34,18 +34,29 @@ For components, we divide components into the following main categories:
 comprising all the actual pages of our application.
 
 	* pages and page specific components that are not used elsewhere.
-	
+
 ## File structure
-src  
-├── js  
-│	├── components  
-│   ├── config  
-│   ├── containers  
-│   ├── modules  
-│   ├── pages  
-│   ├── routes  
-│   ├── store  
-│   └── utils  
+```
+public
+└── images
+src
+├── components
+├── config
+├── containers
+├── modules
+├── pages
+├── routes
+├── store
+├── styles
+└── utils
+tests
+├── components
+├── containers
+├── modules
+├── pages
+├── store
+└── utils
+```
 
 ## Components
 Should store all reusable components (even if they're currently only used once!). These are ideally stateless, state should be handled in the component's container.
@@ -55,14 +66,16 @@ component name + extension
 
 Here is an example of the file structure that should be used:
 
-├── components  
-│   ├── Header  
-│   │   ├── Header.js  
-│   │   ├── Header.scss  
-│   │   ├── assets  
-│   │   │   ├── logo-back.jpg  
-│   │   │   └── logo.png  
-│   │   └── index.js  
+```
+├── components
+│   ├── Header
+│   │   ├── Header.js
+│   │   ├── Header.scss
+│   │   ├── assets
+│   │   │   ├── logo-back.jpg
+│   │   │   └── logo.png
+│   │   └── index.js
+```
 
 The component is in a folder of its name. It always has a `.js` file of it's name where the majority of the JavaScript is. It always has a `index.js` file to export the other js file. The component relevant `.scss` is here optionally, as well as an assets folder with any images etc. that the component needs.
 
@@ -78,11 +91,13 @@ Should store smart components which handle state for stateless components.
 * Container suffix is added to the container file name.  
 * Ducks suffix is added to the ducks file.
 
-├── containers  
-│   └── LoginContainer  
-│       ├── LoginContainer.js  
-│       ├── LoginDucks.js  
-│       └── index.js  
+```
+├── containers
+│   └── Login
+│   |   ├── LoginContainer.js
+│   |   ├── LoginDucks.js
+│   |   └── index.js
+```
 
 The component is in a folder of its name. It always has a `.js` or `.ts` file of its name, as well as an `index.js` file. Optionally, it has a ducks file.
 
@@ -102,11 +117,22 @@ Pages are page specific components, not used elsewhere and are linked to a speci
 ### Naming convention
 Page suffix is added to the page file name
 
-├── pages  
-│   ├── HomePage.js  
+```
+├── pages
+│   └── HomePage.js
+```
 
 Each page is just a `.js` or `.ts` files, no folder required.
 
 ### Common tasks of a Page
 * Link to a URL
 * Group components together
+
+## Tests
+Test files live in a separate folder outside of the main folder, which replicates the src folder. Test files should be suffixed with `.spec.js`.
+
+```
+tests
+├── components
+│   └── HeaderComponent.spec.js
+```
