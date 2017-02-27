@@ -89,7 +89,7 @@ Should store smart components which handle state for stateless components.
 
 ### Naming convention
 * Container suffix is added to the container file name.  
-* Ducks suffix is added to the ducks file.
+* Ducks suffix is added to the [ducks file](https://github.com/erikras/ducks-modular-redux).
 
 ```
 ├── containers
