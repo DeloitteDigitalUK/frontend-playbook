@@ -14,6 +14,9 @@ Specifically, these sections
 Good starting for responsive HTML templates that just work:  
 * [Foundation for Emails](http://foundation.zurb.com/emails.html)
 
+Good reference point for breakdown of the CSS support:
+* [Campaignmonitor](https://www.campaignmonitor.com/css/)
+
 ### Third-party testing
 * [Litmus](http://www.litmus.com)
 * [Inbox inspector](https://mailchimp.com/features/inbox-preview)
