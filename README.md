@@ -32,7 +32,8 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 - [API Mocks](/development/APIMocks.md)
 - [Frameworks](/development/frameworks/Frameworks.md)
 - [HTML](/development/Html.md)
-- [Responsive](/development/Responsive.md)
+- [Responsive Email Templates](/development/Responsive.md)
+- [Responsive](/development/EmailTemplates.md)
 - [Tools of Trade](/development/ToolsOfTrade.md)
 
 ### Production
