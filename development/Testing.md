@@ -2,6 +2,8 @@
 
 Writing tests before writing code is a skill. It may appear hard at first, but it gets better with practice. The result of that effort is a more modular, cohesive, and loosely coupled design.
 
+Tests are also a form of documentation. Unlike traditional documentation or specifications, they are live and active documentation that verify code’s behavior with each change.
+
 A good way to incrementally develop code is through a series of positive, negative, and exception tests. 
 
 - **Positive** tests exercise and verify that the code does what’s expected when its preconditions are met.
@@ -19,8 +21,14 @@ When thinking of tests, think of keeping them FAIR:
 - **Isolated**  
   Isolated tests can be run in any order, and you can also run a select few of them as you desire or all of them. No test should require that any other test be run before it—such tests are brittle and turn into time sinks.
   
-- **Repeatable**
-  Tests should be repeatable; you should be able to run them any number of times without needing manual or time-consuming setup or cleanup operations.
+- **Repeatable**  
+  Tests should be repeatable; you should be able to run them any number of times without needing manual or time-consuming setup or cleanup operations.
+  
+## Client-side specifics
+When testing client-side codewe also need to consider the following aspects
+- Works well in all target browsers
+- Interacts properly with the server
+- Correctly acts on user commands
 
 ## Types of tests
 
