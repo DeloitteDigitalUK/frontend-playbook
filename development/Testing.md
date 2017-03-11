@@ -1,5 +1,27 @@
 # Testing
 
+Writing tests before writing code is a skill. It may appear hard at first, but it gets better with practice. The result of that effort is a more modular, cohesive, and loosely coupled design.
+
+A good way to incrementally develop code is through a series of positive, negative, and exception tests. 
+
+- **Positive** tests exercise and verify that the code does what’s expected when its preconditions are met.
+- **Negative** tests verify that the code gracefully behaves when things don’t go as expected—that is, when its preconditions or input are not valid.
+- **Exception** tests verify that if code is supposed to throw an exception, it does in fact.
+
+## FAIR Principle
+When thinking of tests, think of keeping them FAIR:
+- **Fast** 
+  Fast tests mean fast feedback loops. If tests are slow, you’ll be tempted to run them less often.
+
+- **Automated**
+  A major benefit of tests is verification, it should be automated and not be manual.
+  
+- **Isolated**  
+  Isolated tests can be run in any order, and you can also run a select few of them as you desire or all of them. No test should require that any other test be run before it—such tests are brittle and turn into time sinks.
+  
+- **Repeatable**
+  Tests should be repeatable; you should be able to run them any number of times without needing manual or time-consuming setup or cleanup operations.
+
 ## Types of tests
 
 - **Unit test**  
