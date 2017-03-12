@@ -12,7 +12,7 @@ A good way to incrementally develop code is through a series of positive, negati
 
 ## FAIR Principle
 When thinking of tests, think of keeping them FAIR:
-- **Fast** 
+- **Fast**  
   Fast tests mean fast feedback loops. If tests are slow, you’ll be tempted to run them less often.
 
 - **Automated**  
