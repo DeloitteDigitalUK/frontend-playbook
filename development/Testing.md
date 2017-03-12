@@ -31,7 +31,7 @@ When testing client-side codewe also need to consider the following aspects
 - Correctly acts on user commands
 
 ## Test Doubles
-Test doubles are objects that replace real dependencies to enable automated testing. Test doubles are the automated testing equivalent of movie stunt people—they take the place of the original since having the real one is expensive or impractical.
+Test doubles are objects that replace real dependencies to enable automated testing. Doubles can act as *stubs* and *mocks* at the same time, ensuring that external methods and APIs are called, determining how many times they have been called, capturing called parameters, and returning canned responses. A test double that records and captures information about how methods were called is called a *spy*.
 
 Test doubles have different names and a distinct purpose for each of them:
 
@@ -39,10 +39,10 @@ Test doubles have different names and a distinct purpose for each of them:
   These are implementations suitable for testing, but not for production. For example, interacting with a real production credit card service is not practical during testing—no one wants to incur charges each time tests are run. By replacing the production service with a fake during testing, you can get quick feedback that the code handles successes and failures of interacting with the service properly. Credit card processing services offer two services, one for production use and a fake for use during testing.
 
 - **Stubs**  
-  These are not real implementations but may readily return canned response when called. These are useful to verify code’s behavior in response to (pre-set) results from its (stub) dependency. Stubs are also useful to verify that the code being tested updates the state of their dependencies properly. It’s not a good idea to create one big stub for a dependency. Instead create small stubs in each test, where needed, tailored specifically to help make that test pass.
+  Stubs are used to return canned values back to the tested function. Stubs do not care how the external object’s method was called; stubs simply return a canned object of your choosing. It’s not a good idea to create one big stub for a dependency. Instead create small stubs in each test, where needed, tailored specifically to help make that test pass.
 
 - **Mocks**  
-  These are like stubs in that they may return canned values. However, these keep track of interactions, like how many times and in what order calls were made. Mocks tattletale about interactions and help verify communication between the code being tested and its dependencies.
+  Mocks are used to verify that your function is correctly calling an external API. Tests involving mocks verify that the function under test is passing the correct parameters (either by type or by value) to the external object.
 
 - **Spies**  
   Unlike the other three, spies stand as proxies in front of the actual dependency. They may interact with the real service while stubbing or mocking out some select parts. These are useful when interaction with the actual service during testing is not an issue but we still want to verify the interactions or mock out select parts.
