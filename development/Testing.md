@@ -45,7 +45,7 @@ Test doubles have different names and a distinct purpose for each of them:
   Mocks are used to verify that your function is correctly calling an external API. Tests involving mocks verify that the function under test is passing the correct parameters (either by type or by value) to the external object.
 
 - **Spies**  
-  Unlike the other three, spies stand as proxies in front of the actual dependency. They may interact with the real service while stubbing or mocking out some select parts. These are useful when interaction with the actual service during testing is not an issue but we still want to verify the interactions or mock out select parts.
+  Unlike the other three, spies stand as proxies in front of the actual dependency. A test spy wraps the “real” object, overriding some methods and letting others pass through. A spy is typically attached to a real object and intercepts some method calls (sometimes even only intercepting method calls with specific parameters) to return a canned response or keep track of the number of times a method has been called.
 
 ## Types of tests
 
