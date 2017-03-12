@@ -16,7 +16,7 @@ When thinking of tests, think of keeping them FAIR:
   Fast tests mean fast feedback loops. If tests are slow, you’ll be tempted to run them less often.
 
 - **Automated**  
-  A major benefit of tests is verification, it should be automated and not be manual.
+  A major benefit of tests is verification, it should be automated and not be manual.
   
 - **Isolated**  
   Isolated tests can be run in any order, and you can also run a select few of them as you desire or all of them. No test should require that any other test be run before it—such tests are brittle and turn into time sinks.
