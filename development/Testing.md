@@ -22,7 +22,7 @@ When thinking of tests, think of keeping them FAIR:
   Isolated tests can be run in any order, and you can also run a select few of them as you desire or all of them. No test should require that any other test be run before it—such tests are brittle and turn into time sinks.
   
 - **Repeatable**  
-  Tests should be repeatable; you should be able to run them any number of times without needing manual or time-consuming setup or cleanup operations.
+  Tests should be repeatable; you should be able to run them any number of times without needing manual or time-consuming setup or cleanup operations.
   
 ## Client-side specifics
 When testing client-side codewe also need to consider the following aspects
