@@ -62,6 +62,7 @@ Test doubles have different names and a distinct purpose for each of them:
   Finally you may wish to test that your application works under typical load or see how much load it can handle before it falls over. This is called a load test or stress test. Such tests can be challenging to set up and typically aren’t run often but are very important for confidence before a big production launch.
   
 ## Software testing pyramid
+[Martin Fowler on Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 ![Testing Pyramid](/assets/testing-pyramid.jpeg)
 
 
