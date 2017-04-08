@@ -10,6 +10,8 @@
 * Compressive Images
 * Protecting Aspect Ratios
 * Responsive Typography
+* Responsive Images  
+  [Responsive image linter](https://ausi.github.io/respimagelint/docs.html)
 * Vertical Media Queries
 * Media Queries Splitting
 * Debugging Media Queries
