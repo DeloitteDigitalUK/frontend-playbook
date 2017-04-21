@@ -144,9 +144,9 @@ tests
 
 [Use Ducks](https://github.com/erikras/ducks-modular-redux)
 
-action name: <NOUN>_<VERB>
-action creator name: <verb><Noun>
-selector name: get<Noun>
+**action name**: NOUN_VERB  
+**action creator name**: verbNoun  
+**selector name**: getNoun  
 
 ### Rules
 * Your __reducers__ must be pure (__deterministic__).
