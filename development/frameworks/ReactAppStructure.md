@@ -6,6 +6,7 @@
 * [Containers](#containers)
 * [Pages](#pages)
 * [Tests](#tests)
+* [Redux](#redux)
 
 ## Main folders of the application
 * **components**: reusable common components
@@ -99,7 +100,7 @@ Should store smart components which handle state for stateless components.
 │   |   └── index.js
 ```
 
-The component is in a folder of its name. It always has a `.js` or `.ts` file of its name, as well as an `index.js` file. Optionally, it has a ducks file.
+The component is in a folder of its name. It always has a `.js` or `.ts` file of its name, as well as an `index.js` file. Optionally, it has a ducks file. (see [Redux](#redux) section)
 
 ### Common tasks of a Container
 * A container’s main task is to fetch the data. For that, it has to do a few things:
@@ -136,3 +137,13 @@ tests
 ├── components
 │   └── HeaderComponent.spec.js
 ```
+
+## Redux
+
+### Structure and Naming
+
+[Use Ducks](https://github.com/erikras/ducks-modular-redux)
+
+action name: <NOUN>_<VERB>
+action creator name: <verb><Noun>
+selector name: get<Noun>
