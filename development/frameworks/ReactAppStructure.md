@@ -147,3 +147,22 @@ tests
 action name: <NOUN>_<VERB>
 action creator name: <verb><Noun>
 selector name: get<Noun>
+
+### Rules
+* Your __reducers__ must be pure (__deterministic__).
+* Use Immutable to ensure that your are not mutating the state in your reducers. Remember, `{...state}` is only a shallow copy!
+* Any logic with side effects (__non-deterministic__) (external services, async code) belong in an action (via something like [redux-thunk](https://github.com/gaearon/redux-thunk) and/or [redux-saga](https://github.com/yelouafi/redux-saga))
+  * For more about the deterministic vs non-deterministic, see [this](https://github.com/reactjs/redux/issues/1171#issuecomment-205888533) Github Issue response.
+* Containers read a store's data through selectors. Selectors are your "reading API" and should be __co-located__ with their reducers.
+  * See [So you’ve screwed up your Redux store — or, why Redux makes refactoring easy](https://blog.boldlisting.com/so-youve-screwed-up-your-redux-store-or-why-redux-makes-refactoring-easy-400e19606c71#.rho2ned2d)
+  * [Computing Derived Data | Redux](http://redux.js.org/docs/recipes/ComputingDerivedData.html)
+  * [Colocating Selectors with Reducers](https://egghead.io/lessons/javascript-redux-colocating-selectors-with-reducers)
+* __Use selectors everywhere__. Even for the most trivial ones.
+* Redux should store the minimal possible state, allowing Selectors to compute derived data.
+* Use [Reselect](https://github.com/reactjs/reselect) for selectors that need to be memoized (like derived data).
+* `mapState`should run as fast as possible.
+  * if using immutable, DO NOT call `toJS()` in a `mapState`
+  * from [Practical Redux, Part 6: Connected Lists, Forms, and Performance · Mark's Dev Blog](http://blog.isquaredsoftware.com/2017/01/practical-redux-part-6-connected-lists-forms-and-performance/)
+* Selectors can be composed of other selectors
+* Normalize your data for better reducer composition
+  * see the output of [normalizr](https://github.com/paularmstrong/normalizr) for an example
