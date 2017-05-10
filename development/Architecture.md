@@ -22,15 +22,15 @@ const schema = {
     "id": "/SimpleAddress",
     "type": "object",
     "properties": {
-      "country": {"type": "string"},
-      "city": {"type": "string"}
+        "country": {"type": "string"},
+        "city": {"type": "string"}
     },
     "required": ["country"]
-  };
+};
 
 const data = {
   country: 'United Kingdom'
-}
+};
 
 const isValid = ajv.validate(schema, data); // => true
 
