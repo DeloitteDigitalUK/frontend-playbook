@@ -146,7 +146,7 @@ tests
 
 **action name**: NOUN_VERB  
 **action creator name**: verbNounAction
-**action creator thunk** - verbNoun
+**action creator thunk** verbNoun
 **selector name**: getNoun  
 
 ### Rules
