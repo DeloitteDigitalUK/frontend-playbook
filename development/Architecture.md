@@ -13,7 +13,7 @@ Incoming payload at runtime can be validated against a defined JSONSchema.
 
 For example, we can use a library [AJV](https://www.npmjs.com/package/ajv) to validate against a [JSONSchema](https://www.npmjs.com/package/jsonschema)
 
-```
+```javascript
 import Ajv from 'ajv';
 
 const ajv = new Ajv();
