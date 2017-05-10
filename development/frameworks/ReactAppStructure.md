@@ -145,7 +145,8 @@ tests
 [Use Ducks](https://github.com/erikras/ducks-modular-redux)
 
 **action name**: NOUN_VERB  
-**action creator name**: verbNoun  
+**action creator name**: verbNounAction
+**action creator thunk** - verbNoun
 **selector name**: getNoun  
 
 ### Rules
