@@ -1,6 +1,8 @@
 # Front-end Architecture
 
-## Barricades
+## Error handling
+
+### Barricades
 Barricades are a damage-containment strategy. The reason is similar to that for having isolated compartments in the hull of a ship.
 If the ship runs into an iceberg and pops open the hull, that compartment is shut off and the rest of the ship isn't affected.  
 
