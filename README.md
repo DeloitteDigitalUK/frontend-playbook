@@ -30,6 +30,7 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 ### Development
 - [Accessibility](/development/Accessibility.md)
 - [API Mocks](/development/APIMocks.md)
+- [Design](/design/Design.md)
 - [Frameworks](/development/frameworks/Frameworks.md)
 - [HTML](/development/Html.md)
 - [Responsive](/development/Responsive.md)
