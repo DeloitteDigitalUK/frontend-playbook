@@ -55,4 +55,14 @@ On top of this, `target="_blank"` is also a security vulnerability. The new page
 * Security
 
 #### Example
+```html
+<!-- bad -->
+<a href="https://example.com" target="_blank">...</a>
+```
+  
+```html
+<!-- good -->
+<a href="https://example.com" target="_blank" rel="noopener">...</a>
+```
+  
 [https://mathiasbynens.github.io/rel-noopener/](https://mathiasbynens.github.io/rel-noopener/)
