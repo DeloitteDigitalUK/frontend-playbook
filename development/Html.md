@@ -44,3 +44,15 @@ Anchor link
 <h1 id="site-heading">Our heading</h1>
 <a href="#site-heading">Link to heading</a>
 ```
+---
+### Use noopener and noreferrer in external links
+When your page links to another page using `target="_blank"`, the new page runs on the same process as your page. If the new page is executing expensive JavaScript, your page's performance may also suffer.  
+
+On top of this, `target="_blank"` is also a security vulnerability. The new page has access to your `window` object via `window.opener`, and it can navigate your page to a different URL using `window.opener.location = newURL`.
+
+#### Rationale
+* Performance
+* Security
+
+#### Example
+[https://mathiasbynens.github.io/rel-noopener/](https://mathiasbynens.github.io/rel-noopener/)
