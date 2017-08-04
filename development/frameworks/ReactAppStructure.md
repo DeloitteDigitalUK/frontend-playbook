@@ -1,4 +1,4 @@
-#React app structure
+# React app structure
 ## Contents
 * [Main folders of the application](#main-folders-of-the-application)
 * [File structure](#file-structure)
