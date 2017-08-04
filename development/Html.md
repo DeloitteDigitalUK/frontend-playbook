@@ -55,6 +55,7 @@ On top of this, `target="_blank"` is also a security vulnerability. The new page
 * Security
 
 #### Example
+  
 ```html
 <!-- bad -->
 <a href="https://example.com" target="_blank">...</a>
