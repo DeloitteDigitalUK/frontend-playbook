@@ -1,3 +1,4 @@
+# Design
 Organize your UI libraries in small elements, then work your way out toward larger components, and then layouts. While doing that, always be explicit about all objects’ associated types, variants and states. 
 
 *Visual inventory* helps to decide on visual direction without spending too much  time on “deadlift” mock-ups.

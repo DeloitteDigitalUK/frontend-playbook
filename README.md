@@ -34,6 +34,7 @@ This playbook belongs belongs to everyone in the DD front-end teams. You own thi
 - [Design](/design/Design.md)
 - [Frameworks](/development/frameworks/Frameworks.md)
 - [HTML](/development/Html.md)
+- [JavaScript](/development/JavaScript.md)
 - [Responsive](/development/Responsive.md)
 - [Responsive Email Templates](/development/EmailTemplates.md)
 - [Tools of Trade](/development/ToolsOfTrade.md)
