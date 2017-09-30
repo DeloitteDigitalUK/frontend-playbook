@@ -231,3 +231,5 @@ Also add into your assumptions the WCAG 2.0 level you're meeting and the fact th
 
 ## Misc
 [Accessibility checklist](http://accessibility.voxmedia.com/)
+[W3C on labelling controls](https://www.w3.org/WAI/tutorials/forms/labels/)
+[W3C on user notifications](https://www.w3.org/WAI/tutorials/forms/notifications/)
