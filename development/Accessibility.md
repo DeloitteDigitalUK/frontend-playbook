@@ -76,7 +76,7 @@ Here is a very high level checklist of things to watch out for. Items in italics
 * Include labels and instructions for forms and provide error suggestions and validation help
 * If a user can change/delete legal or financial data, the changes/deletions can be reversed, verified or confirmed
 
-###The main points to remember
+### The main points to remember
 There really are four main points you need to remember (the rest you should already be doing)
 * All content can be navigated by using a keyboard
      * Include skip links to make it a better UX for keyboard only users
