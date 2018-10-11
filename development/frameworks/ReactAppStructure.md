@@ -5,7 +5,6 @@
 * [Components](#components)
 * [Containers](#containers)
 * [Pages](#pages)
-* [Tests](#tests)
 * [Redux](#redux)
 
 ## Main folders of the application
@@ -50,19 +49,48 @@ src
 ├── store
 ├── styles
 └── utils
-tests
-├── components
-├── containers
-├── modules
-├── pages
-├── store
-└── utils
 ```
 
-## Components
-Should store all reusable components (even if they're currently only used once!). These are ideally stateless, state should be handled in the component's container.
+## Components and Containers
 
-### Naming convention
+### Overview
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th scope="col" style="text-align:left">Presentational Components</th>
+            <th scope="col" style="text-align:left">Container Components</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <th scope="row" style="text-align:right">Purpose</th>
+          <td>How things look (markup, styles)</td>
+          <td>How things work (data fetching, state updates)</td>
+        </tr>
+        <tr>
+          <th scope="row" style="text-align:right">Aware of Redux</th>
+          <td>No</th>
+          <td>Yes</th>
+        </tr>
+        <tr>
+          <th scope="row" style="text-align:right">To read data</th>
+          <td>Read data from props</td>
+          <td>Subscribe to Redux state</td>
+        </tr>
+        <tr>
+          <th scope="row" style="text-align:right">To change data</th>
+          <td>Invoke callbacks from props</td>
+          <td>Dispatch Redux actions</td>
+        </tr>
+    </tbody>
+</table>
+
+### Components
+Should store all reusable components (even if they're currently only used once). These are ideally stateless, state should be handled in the component's container.
+
+#### Naming convention
 component name + extension
 
 Here is an example of the file structure that should be used:
@@ -78,32 +106,73 @@ Here is an example of the file structure that should be used:
 │   │   └── index.js
 ```
 
-The component is in a folder of its name. It always has a `.js` file of it's name where the majority of the JavaScript is. It always has a `index.js` file to export the other js file. The component relevant `.scss` is here optionally, as well as an assets folder with any images etc. that the component needs.
+The component is in a folder of its name. It always has a `.js` file of it's name where the majority of the JavaScript is. It always has a `index.js` file to export the other `js` files. The component relevant `.scss` is here, as well as an assets folder with any images etc. that the component needs. Tests and `storybook` (if used) should also be in the folder.
 
 If you are using typescript, this is where your `.tsx` file will go.
 
-### Common tasks of a Component
-TBA
 
-## Containers
-Should store smart components which handle state for stateless components.
+#### Common tasks of a Component
+* Should handle any styling or display logic which is based on its props.
+* Should change or manipulate data by invoking a callback which is passed as a prop.
 
-### Naming convention
+### Containers
+Should store components which handle state for stateless components. They are either using `state` or connected to the `store`
+
+#### Naming convention
 * Container suffix is added to the container file name.  
-* Ducks suffix is added to the [ducks file](https://github.com/erikras/ducks-modular-redux).
 
 ```
 ├── containers
-│   └── Login
+│   └── LoginContainer
 │   |   ├── LoginContainer.js
-│   |   ├── LoginDucks.js
+│   |   ├── LoginContainer.transformations.js
 │   |   └── index.js
 ```
 
-The component is in a folder of its name. It always has a `.js` or `.ts` file of its name, as well as an `index.js` file. Optionally, it has a ducks file. (see [Redux](#redux) section)
+The component is in a folder of its name. It always has a `.js` or `.tsx` file of its name, as well as an `index.js` file. Optionally, it has a ducks file. (see [Redux](#redux) section)
 
-### Common tasks of a Container
-* A container’s main task is to fetch the data. For that, it has to do a few things:
+#### Types
+
+##### Connected to store
+* The container will be connected to the `store` and retrieve the required information by using a selector.
+* A selector should be used to derive data based on values in the store. `MapStateToProps` is called every time the props have changed and the need to use `componentWillReceiveProps` should be removed. 
+
+Below is an example of how a container can be connected to the store. Selectors should be in their respective ducks folder.
+
+```
+const getAddedIds = state => fromCart.getAddedIds(state.cart)
+const getQuantity = (state, id) => fromCart.getQuantity(state.cart, id)
+const getProduct = (state, id) => fromProducts.getProduct(state.products, id)
+
+export const getTotal = state =>
+  getAddedIds(state)
+    .reduce((total, id) =>
+      total + getProduct(state, id).price * getQuantity(state, id),
+      0
+    )
+    .toFixed(2)
+
+export const getCartProducts = state =>
+  getAddedIds(state).map(id => ({
+    ...getProduct(state, id),
+    quantity: getQuantity(state, id)
+  }))
+
+
+const mapStateToProps = (state) => ({
+  products: getCartProducts(state),
+  total: getTotal(state)
+})
+```
+
+##### Fetch Data
+* When an API call is needed the container should dispatch an action to request the data. Best practice is to dispatch the action in `componentDidMount`.
+* The container should also handle what component is displayed based on loading, error or success state.
+* A selector should be used to grab the data/error from state once the API call is in progress/has finished/has error.
+* One approach is to have a generic container responsible for API calls - displaying an error, loading screen or a container once the call has finished successfully. Then the second container will be connected the store and grab the required information. In this way, we will have a separation of concerns where one container is doing API calls and the other grabbing the required information from the store.
+
+
+#### Summary of container's tasks
 * Request the data (invoke a subscription or just fetch it).
 * Show a loading screen while the data is being fetched.
 * Once the data arrives, pass it to the UI component.
@@ -130,13 +199,8 @@ Each page is just a `.js` or `.ts` files, no folder required.
 * Group components together
 
 ## Tests
-Test files live in a separate folder outside of the main folder, which replicates the src folder. Test files should be suffixed with `.spec.js`.
+Test files live in the same folder as their testing counterpart. Test files should be suffixed with `.spec.js`.
 
-```
-tests
-├── components
-│   └── HeaderComponent.spec.js
-```
 
 ## Redux
 
